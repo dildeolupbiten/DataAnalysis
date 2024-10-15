@@ -2,7 +2,7 @@
 
 A Python wrapper for a simple linear regression library written in C.
 
-```
+```python
 from matplotlib import pyplot as plt
 from DataAnalysis import DataAnalysis
 
