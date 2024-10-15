@@ -174,7 +174,7 @@ char *n2str(double n) {
     int neg = n < 0 ? 1 : 0;
     if (neg) { n *= -1; };
     char *i_part = malloc(sizeof(char));
-    if (is_null(i_part, "i_part", "n2st2")) { return NULL; }
+    if (is_null(i_part, "i_part", "n2str")) { return NULL; }
     int i_count = 0;
     double f = n - (int)n;
     while (n) {
